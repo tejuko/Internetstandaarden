@@ -202,10 +202,6 @@ ol li:hover {
 }
 
 @media (max-width: 1325px) {
-    .backgroundrest {
-        background-color: green;
-    }
-
     nav {
         display: flex;
         flex-direction: column;
