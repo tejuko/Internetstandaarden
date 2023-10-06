@@ -170,6 +170,12 @@ ol li:hover {
     background: transparent;
 }
 
+.backtext, .kopje{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em 0.8em 1em;
+    border-radius: 1em;
+}
+
 /*MIJN ERVARING*/
 .kopje p, .kop {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -193,4 +199,36 @@ ol li:hover {
 .fotos img {
     margin: 0em 1em 1em 0em;
     width: 20%;
+}
+
+@media (max-width: 1325px) {
+    .backgroundrest {
+        background-color: green;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleindex, .maintext {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    ul {
+        position: relative;
+    }
+}
+
+@media (max-width: 650px) {
+    .titleindex {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 572px) {
+    .title {
+        font-size: 2.3em;
+    }
 }
