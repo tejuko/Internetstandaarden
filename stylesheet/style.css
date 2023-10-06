@@ -60,7 +60,7 @@ ul {
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.4);
-    position: fixed; /*zorgt ervoor dat no matter what de navigatiebalk onderaan de pagina blijft*/
+    position: fixed; /*zorgt ervoor dat no matter what de bronnenlijst onderaan de pagina blijft*/
     left: 0;
     right: 0;
     bottom: 0;
@@ -71,7 +71,7 @@ ul {
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.4);
-    position: relative; /*zorgt ervoor dat de navigatiebalk onderaan het laatste element van de pagina blijft.*/
+    position: relative; /*zorgt ervoor dat de bronnenlijst onderaan het laatste element van de pagina blijft.*/
     left: 0;
     right: 0;
     bottom: 0;
