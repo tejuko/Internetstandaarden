@@ -201,6 +201,7 @@ ol li:hover {
     width: 20%;
 }
 
+/*MAAKT HET RESPONSIVE*/
 @media (max-width: 1325px) {
     nav {
         display: flex;
@@ -212,9 +213,12 @@ ol li:hover {
         color: white;
     }
 
-    ul {
+    .bronnena, .bronnenb{
         position: relative;
+        display: flex;
+        flex-wrap: wrap;
     }
+
 }
 
 @media (max-width: 650px) {
