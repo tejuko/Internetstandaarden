@@ -150,6 +150,17 @@ div {
     margin: 0;
 }
 
+.backtext, .kopje{ /*backtext = background text*/
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5em 1em 0.8em 1em;
+    border-radius: 1em;
+}
+
+.backtext {
+    display: flex;
+    flex-direction: column;
+}
+
 /*OPMAAK AFBEELDINGEN*/
 img {
     max-width: 25em;
@@ -166,17 +177,6 @@ ol li {
 ol li:hover {
     background-color: transparent;
     background: transparent;
-}
-
-.backtext, .kopje{ /*backtext = background text*/
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 0.5em 1em 0.8em 1em;
-    border-radius: 1em;
-}
-
-.backtext {
-    display: flex;
-    flex-direction: column;
 }
 
 /*MIJN ERVARING*/
