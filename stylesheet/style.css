@@ -56,32 +56,31 @@ ul a, li{
     list-style: none; /*haalt de punten voor de lijst weg*/
 }
 
-ul {
+footer {
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.4);
-    position: fixed; /*zorgt ervoor dat no matter what de bronnenlijst onderaan de pagina blijft*/
+    position: relative; /*zorgt ervoor dat no matter what de bronnenlijst onderaan de pagina blijft*/
     left: 0;
     right: 0;
     bottom: 0;
     padding: 0    1em   0   1em;
 }
 
+.indexbronnen {
+    position: fixed;
+}
+
 .bronnenlijst {
-    display: flex;
-    flex-direction: column;
-    background: rgba(0, 0, 0, 0.4);
     position: relative; /*zorgt ervoor dat de bronnenlijst onderaan het laatste element van de pagina blijft.*/
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0    1em   0   1em;
+    margin: 0;
 }
 
 .bronnena, .bronnenb {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0;
 }
 
 /*HOVER EFFECT BRONNEN*/
