@@ -6,9 +6,6 @@
 	/*zorgt ervoor dat als je scrollt de afbeelding zich niet herhaalt*/
 }
 
-
-/*TEKST OPMAAK*/
-
 /*NAVIGATIEBALK*/
 header {
 	display: flex;
@@ -99,9 +96,14 @@ h1 {
 	margin: 0.1em 0em 0em 0em;
 }
 
-div {
+.backtext {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	display: flex;
+}
+
+.layout {
+	display: flex;
+	flex-direction: row;
 	margin: 1em;
 }
 
@@ -130,6 +132,9 @@ p {
 
 img {
 	border-radius: 1em;
+	width: 25em;
+	height: auto;
+	margin-left: 1em;
 }
 
 /*MIJN ERVARING*/
@@ -222,11 +227,6 @@ ol li:hover {
 	background: transparent;
 }
 
-img {
-	width: 25em;
-	height: auto;
-}
-
 /*MAAKT HET RESPONSIVE*/
 @media (max-width: 1325px) {
 	nav {
@@ -250,6 +250,17 @@ img {
 		position: relative;
 		display: flex;
 		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 730px) {
+	.layout {
+		display: flex;
+		flex-direction: column;
+	}
+
+	img {
+		margin-top: 1em;
 	}
 }
 
