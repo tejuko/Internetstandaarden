@@ -274,4 +274,18 @@ ol li:hover {
 	h1 {
 		font-size: 2.3em;
 	}
+
+	.logo {
+		width: 1em;
+	}
+}
+
+@media (max-width: 507px) { 
+	nav a {
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+	nav a:hover {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
 }
